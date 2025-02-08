@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ESNext",                 
+    "jsx": "react-jsx",                  
+    
+    /* Modules */
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "baseUrl": "./",
+    "resolveJsonModule": true,
+
+    /* JavaScript Interop */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    
+    /* Type Checking */
+    "strict": true, 
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+
+    /* React-Specific */
+    "isolatedModules": true                 
+  },
+  "include": ["src"]
+}

@@ -22,5 +22,6 @@
     /* React-Specific */
     "isolatedModules": true                 
   },
-  "include": ["src"]
+  "include": ["./**/*"],
+  "exclude": ["node_modules"]
 }
